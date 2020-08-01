@@ -1,0 +1,3 @@
+Dựa vào hình minh họa.. mọi người dựng cho anh 1 khung trang web kiểu như vậy.
+
+*Lưu ý: Chỉ sử dụng Css thuần không được dùng bootstrap
