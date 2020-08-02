@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    width: 1000px;
+    margin: 50px auto;
+}
+.menu ul li{
+    list-style: none;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color:green;
+    border: 1px solid white;
+    text-align: center;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.menu ul li ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+.menu ul li:hover{
+    background-color: hotpink;
+    cursor: pointer;
+}
+.menu ul li:hover ul{
+    display: block;
+}
