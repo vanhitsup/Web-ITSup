@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+.container{
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    height: 60px;
+    width:80%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.menu ul{
+  margin-left: 100px;
+}
+.sidebar{
+    width: 10%;
+    height:100%;
+    background-color: darkgray;
+    float: left;
+}
+
+.content{
+    height: 600px;
+    width:70%;
+    background-color: dodgerblue;
+    margin: 0 auto;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
