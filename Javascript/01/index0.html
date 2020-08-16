@@ -5,7 +5,8 @@
 <script type="text/javascript">
     function printValue() {
         var name = document.form1.name.value;
-        alert("Welcome: " + name);
+        // alert("Welcome: " + name);
+        document.getElementById('abc').innerText=name;
     }
 </script>
 </head>
@@ -23,7 +24,9 @@ value : là thuộc tính, trả về giá trị của văn bản đầu vào.
     </pre>
     <form name="form1">
         Enter Name: <input type="text" name="name" /> 
-        <input type="button" onclick="printValue()" value="Display Name" />
+        <input type="button" onclick="printValue()" value="Submit" />
+        Ketqua: <span id=abc></span>
+  
         <!-- <input type="submit" onclick="printValue()"  /> -->
     </form>
 </body>
