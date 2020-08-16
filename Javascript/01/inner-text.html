@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+            var abc;
+            if(document.myForm.userPass.value.length>8){
+                abc="Mạnh";
+            }
+            else 
+            {
+                abc="Yếu"
+            }
+            document.getElementById('cout').innerText=abc;
+        }
+    </script>
+</head>
+<body>
+    <pre>
+        Viết các văn bản động trên các trang html 
+        -> sử dụng để thông báo xác nhận or độ mạnh mất khẩ<u class=""></u>
+    </pre>
+
+    <form action="#" name=myForm>
+       
+     <input type="password" value="" name="userPass" onkeyup="validate()">
+   mật khẩu: <span id="cout"></span>
+    </form>
+</body>
+</html>
